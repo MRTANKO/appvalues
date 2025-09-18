@@ -27,3 +27,8 @@ application:
     port: 80
     targetPort: 8080
     protocol: TCP
+  database:
+    credentialToDB: db-credential
+    DB_HOST: "localhost"
+    DB_PORT: "5432"
+    DB_NAME: "PeopleDB"
