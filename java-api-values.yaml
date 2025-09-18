@@ -1,6 +1,10 @@
 fullnameOverride: "java-app"
 
 application:
+  image:
+    repository: mrtanko/jenkins-java-api
+    tag: "0.5"
+
   probes:
     readinessProbe:
       httpGet:
