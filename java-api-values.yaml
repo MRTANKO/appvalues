@@ -33,6 +33,6 @@ application:
     protocol: TCP
   database:
     credentialToDB: db-credential
-    DB_HOST: "164.138.89.89"
+    DB_HOST: "51.250.34.233"
     DB_PORT: "5432"
     DB_NAME: "peopledb"
